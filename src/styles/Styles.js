@@ -72,6 +72,9 @@ export default StyleSheet.create({
   textBold: {
     fontWeight: 'bold',
   },
+  textNormal: {
+    fontWeight: 'normal',
+  },
   textSm: {
     fontSize: 12,
   },
@@ -209,6 +212,10 @@ export default StyleSheet.create({
   },
   bd: {
     borderColor: Colors.LIGHT_GREY,
+    borderWidth: 1,
+  },
+  bdPrimary: {
+    borderColor: Colors.BLUE,
     borderWidth: 1,
   },
   bdRad1: {
