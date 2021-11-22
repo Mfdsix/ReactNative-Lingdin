@@ -6,16 +6,10 @@ export default StyleSheet.create({
     backgroundColor: Colors.WHITE,
   },
   bgPrimary: {
-    backgroundColor: Colors.RED,
-  },
-  bgSecondary: {
-    backgroundColor: Colors.PURPLE,
+    backgroundColor: Colors.BLUE,
   },
   bgGrey: {
     backgroundColor: Colors.LIGHT_GREY,
-  },
-  bgSecondary: {
-    backgroundColor: Colors.PURPLE,
   },
   shadow: {
     elevation: 10,
@@ -64,7 +58,7 @@ export default StyleSheet.create({
     textAlign: 'right',
   },
   textPrimary: {
-    color: Colors.RED,
+    color: Colors.BLUE,
   },
   textDark: {
     color: Colors.BLACK,
@@ -225,16 +219,6 @@ export default StyleSheet.create({
   },
   bdRad3: {
     borderRadius: 30,
-  },
-  btn: {
-    backgroundColor: Colors.RED,
-    borderRadius: 10,
-    paddingHorizontal: 20,
-    paddingVertical: 15,
-  },
-  btnText: {
-    color: Colors.WHITE,
-    textAlign: 'center',
   },
   textWrap: {
     flex: 1,
