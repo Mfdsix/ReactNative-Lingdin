@@ -11,6 +11,9 @@ export default StyleSheet.create({
   bgGrey: {
     backgroundColor: Colors.LIGHT_GREY,
   },
+  bgSmoke: {
+    backgroundColor: Colors.WHITE_SMOKE,
+  },
   shadow: {
     elevation: 10,
     shadowColor: Colors.GREY,
@@ -71,6 +74,9 @@ export default StyleSheet.create({
   },
   textBold: {
     fontWeight: 'bold',
+  },
+  textItalic: {
+    fontStyle: 'italic',
   },
   textNormal: {
     fontWeight: 'normal',

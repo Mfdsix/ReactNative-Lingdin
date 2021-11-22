@@ -6,4 +6,5 @@ export default {
   LIGHT_GREY: '#eee',
   BLACK: '#414157',
   WHITE: '#ffffff',
+  WHITE_SMOKE: '#edf2f8',
 };

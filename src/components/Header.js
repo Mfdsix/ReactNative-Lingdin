@@ -16,7 +16,7 @@ export default function Header(props) {
         Styles.alignCenter,
         Styles.pd2,
       ]}>
-      {!props.usePhoto && props.navigation && (
+      {!props.usePhoto != false && props.navigation && (
         <TouchableOpacity
           activeOpacity={0.7}
           onPress={() => props.navigation.navigate('Profile')}>
@@ -42,7 +42,7 @@ export default function Header(props) {
         />
         <Text style={Styles.textGrey}>Search for...</Text>
       </View>
-      {!props.useNotification && (
+      {props.useNotification != false && (
         <View style={[Styles.ml1, Styles.bgPrimary, Styles.pd1, Styles.bdRad1]}>
           <Icon
             color={Colors.WHITE}
