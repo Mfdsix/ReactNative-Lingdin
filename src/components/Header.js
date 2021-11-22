@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, Image, StyleSheet} from 'react-native';
+import {View, Text, Image, StyleSheet, TouchableOpacity} from 'react-native';
 import {Icon} from 'react-native-elements';
 
 import Styles from '../styles/Styles';
@@ -16,10 +16,14 @@ export default function Header(props) {
         Styles.alignCenter,
         Styles.pd2,
       ]}>
-      {!props.usePhoto && (
-        <View style={[Styles.mr1]}>
-          <Image style={HeaderStyles.roundImage} source={{uri: userImage}} />
-        </View>
+      {!props.usePhoto && props.navigation && (
+        <TouchableOpacity
+          activeOpacity={0.7}
+          onPress={() => props.navigation.navigate('Profile')}>
+          <View style={[Styles.mr1]}>
+            <Image style={HeaderStyles.roundImage} source={{uri: userImage}} />
+          </View>
+        </TouchableOpacity>
       )}
       <View
         style={[

@@ -90,7 +90,7 @@ const REACTIONS = [
 export default function Home({navigation}) {
   return (
     <View style={[Styles.full, Styles.bg]}>
-      <Header />
+      <Header navigation={navigation} />
       <ScrollView style={[Styles.full, Styles.bgGrey]}>
         {/*  */}
         <View style={[Styles.mv1]}>
