@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, Image, ScrollView, TouchableOpacity} from 'react-native';
 import {Icon} from 'react-native-elements';
-// import Video from 'react-native-video';
+import VideoPlayer from 'react-native-video-player';
 
 import Header from '../components/Header';
 import BottomNavigation from '../components/BottomNavigation';
@@ -22,18 +22,19 @@ function PostItem(props) {
       </View>
     );
   }
-  // if (post.media && post.mediaType == 'video') {
-  //   return (
-  //     <View>
-  //       <Video
-  //         source={{uri: post.media}}
-  //         ref={ref => {
-  //           this.player = ref;
-  //         }}
-  //       />
-  //     </View>
-  //   );
-  // }
+  if (post.media && post.mediaType == 'video') {
+    return (
+      <View style={Styles.mb1}>
+        <VideoPlayer
+          video={{
+            uri: post.media,
+          }}
+          videoWidth={1600}
+          videoHeight={1600}
+        />
+      </View>
+    );
+  }
   return <View />;
 }
 
