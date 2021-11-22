@@ -1,18 +1,5 @@
 const POSTS = [
   {
-    user: 'JavaScript Developer',
-    headline: 'Program Development',
-    userImage:
-      'https://media-exp1.licdn.com/dms/image/C560BAQE4Gl_BTLoH8Q/company-logo_100_100/0/1548063106795?e=1645660800&v=beta&t=xrROYCAdcPast--YWJKKXfoxVKg6IjzZN9qXnd-EeJY',
-    media:
-      'https://media-exp1.licdn.com/dms/image/C4D22AQGTzNyItN_dWA/feedshare-shrink_800/0/1637221675906?e=1640217600&v=beta&t=qsHOw31RbtHYbWKBUwXwppiiOo4BTjuZ3AWH7qpapwE',
-    mediaType: 'image',
-    reactions: 25495,
-    comments: 367,
-    postTime: '3d ago',
-    isLiked: true,
-  },
-  {
     user: 'Meta',
     headline: 'Internet',
     userImage:
@@ -26,6 +13,19 @@ const POSTS = [
     comments: 718,
     views: 1228636,
     postTime: '4d ago',
+  },
+  {
+    user: 'JavaScript Developer',
+    headline: 'Program Development',
+    userImage:
+      'https://media-exp1.licdn.com/dms/image/C560BAQE4Gl_BTLoH8Q/company-logo_100_100/0/1548063106795?e=1645660800&v=beta&t=xrROYCAdcPast--YWJKKXfoxVKg6IjzZN9qXnd-EeJY',
+    media:
+      'https://media-exp1.licdn.com/dms/image/C4D22AQGTzNyItN_dWA/feedshare-shrink_800/0/1637221675906?e=1640217600&v=beta&t=qsHOw31RbtHYbWKBUwXwppiiOo4BTjuZ3AWH7qpapwE',
+    mediaType: 'image',
+    reactions: 25495,
+    comments: 367,
+    postTime: '3d ago',
+    isLiked: true,
   },
   {
     user: 'ADVANCE.AI',
